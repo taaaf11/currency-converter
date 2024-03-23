@@ -24,7 +24,7 @@ class FromCurrencyDropdown extends StatelessWidget {
         fromState.change(value!);
       },
       width: 150,
-      menuHeight: 50,
+      menuHeight: 180,
     );
   }
 }
@@ -49,7 +49,7 @@ class ToCurrencyDropdown extends StatelessWidget {
         toState.change(value!);
       },
       width: 150,
-      menuHeight: 50,
+      menuHeight: 180,
     );
   }
 }
