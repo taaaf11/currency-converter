@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(
               seedColor: const Color(0xff3c867d), brightness: Brightness.dark),
           useMaterial3: true,
+          fontFamily: 'Comfortaa',
         ),
         home: const MyHomePage(title: 'Currency Converter'),
       ),
